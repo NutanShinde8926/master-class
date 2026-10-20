@@ -1,16 +1,42 @@
-import Student from "./Student";
-function App() {
+import React from 'react'
+import Book from './Book'
+
+const App = () => {
   return (
     <div>
-      <Student name="rahul" age={22} course ="Bsc" />
-      <Student name="sunil" age={25} course ="BCom" />
-      <Student name="nikhil" age={21} course ="Arts" />
-
+      <Book title="horrer" author="nutan" price="infinity" />
+      <Book title="very horror" author="pooja" price={500} />
+      <Book title="classroom" author="alian" price={2} /> 
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react'
+// import Student from './Student'
+// const App = () => {
+//   return (
+//     <div>
+//       <Student name="rahul" age={22} course="bcs" />
+//       <Student name="neha" age={105} course="timepass" />
+//       <Student name="ravan" age={10} course="distrution" />
+//     </div>
+//   )
+// }
+
+// export default App
 
 
 

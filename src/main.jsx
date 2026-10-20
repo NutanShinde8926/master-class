@@ -1,34 +1,10 @@
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import ExternalComp from './components/ExternalComp';
-// import 'bootstrap/dist/css/bootstrap.min.css'
+import "./index.css";
+import App from "./App.jsx";
 
-const root = createRoot(document.getElementById('root'));
-
-
-
-function MyCompo(){
-  return(
-    <div>
-      <h2>Heading</h2>
-      <p>paragraph</p>
-    </div>
-  );
-}
-root.render(<MyCompo/>);
-
-function NewCompo() {
-  return(
-    <ul>
-      <li>Java</li>
-      <li>React</li>
-      <li>SQL</li>
-    </ul>
-  );
-}
-root.render(
-  <div>
-    <MyCompo/>
-    <NewCompo/>
-    <ExternalComp/>
-  </div>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <App />
+  </StrictMode>
 );

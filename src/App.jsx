@@ -1,17 +1,41 @@
-import React from 'react'
-import Book from './Book'
+import MyButton from "./MyButton";
 
 const App = () => {
   return (
     <div>
-      <Book title="horrer" author="nutan" price="infinity" />
-      <Book title="very horror" author="pooja" price={500} />
-      <Book title="classroom" author="alian" price={2} /> 
+      <MyButton text="Login" color="green" />
+      <MyButton text="Delete" color="red" />
+      <MyButton text="Cancel" color="gray" />
     </div>
   );
-}
+};
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react'
+// import Book from './Book'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Book title="horrer" author="nutan" price="infinity" />
+//       <Book title="very horror" author="pooja" price={500} />
+//       <Book title="classroom" author="alian" price={2} /> 
+//     </div>
+//   );
+// }
+
+// export default App;
 
 
 

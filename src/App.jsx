@@ -1,6 +1,8 @@
 
 import MyButton from "./MyButton";
+import AutoCounter from "./usestate/AutoCounter";
 import Counter from "./usestate/Counter";
+import IntervalCounter from "./usestate/IntervalCounter";
 
 const App = () => {
   return (
@@ -8,7 +10,9 @@ const App = () => {
       {/* <MyButton text="Login" color="green" />
       <MyButton text="Delete" color="red" />
       <MyButton text="Cancel" color="gray" /> */}
-      <Counter />
+      {/* <Counter />
+      <AutoCounter /> */}
+      <IntervalCounter />
     </div>
   );
 };

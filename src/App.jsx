@@ -1,11 +1,14 @@
+
 import MyButton from "./MyButton";
+import Counter from "./usestate/Counter";
 
 const App = () => {
   return (
     <div>
-      <MyButton text="Login" color="green" />
+      {/* <MyButton text="Login" color="green" />
       <MyButton text="Delete" color="red" />
-      <MyButton text="Cancel" color="gray" />
+      <MyButton text="Cancel" color="gray" /> */}
+      <Counter />
     </div>
   );
 };

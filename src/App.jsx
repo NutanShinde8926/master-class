@@ -1,16 +1,16 @@
 import React from 'react'
+import Products from './Products'
 
 const App = () => {
   return (
-    <>
-   <div className="main"> </div>
-   <h1 className="text-3xl font-bold text-blue-500">Hello Tailwind</h1>
-   <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
-  Click me
-</button>
-     <h1>hey</h1>
-  
-   </>
+<div className='w-full h-screen bg-zinc-900 p-4'>
+  <div className='w-44 h-32 rounded-xl bg-red-600 p-3 text-white'>
+    <h3>hello kaise ho</h3>
+  </div>
+  <Products />
+</div>
+
+     
   )
 }
 

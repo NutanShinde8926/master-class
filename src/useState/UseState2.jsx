@@ -5,8 +5,7 @@ const UseState2 = ()=> {
     return(
         <div>
            <h1 color="red">How Can I Help You ? {name}</h1>
-           {/* <input type="text" onChange={(e) =>setName(e.target.value)} /> */}
-           <input type="text" onChange={(e) => setName(e.target.value)} />
+           <input type="text" maxLength={20} onChange={(e) => setName(e.target.value)} />
         </div>
     );
 };

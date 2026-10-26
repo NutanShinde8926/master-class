@@ -1,10 +1,10 @@
-// import Nutan from "./usecontext/Nutan";
+import Nutan from "./usecontext/Nutan";
 
-// function App() {
-//   return <Nutan />;
-// }
+function App() {
+  return <Nutan />;
+}
 
-// export default App;
+export default App;
 
 
 
@@ -48,17 +48,17 @@ import UseState2 from './useState/UseState2'
 import SignupForm from './useState/SignupForm'
 import Toggle from './useState/Toggle'
 
- const App = () => {
-   return (
-     <div>
-       <Counter />
-      <Car />
-      <Counter2 />
-      <UseState2 /> 
-       <SignupForm />
-      <Toggle />
-    </div>
-  )
-}
+//  const App = () => {
+//    return (
+//      <div>
+//        <Counter />
+//       <Car />
+//       <Counter2 />
+//       <UseState2 /> 
+//        <SignupForm />
+//       <Toggle />
+//     </div>
+//   )
+// }
 
-export default App 
+// export default App 

@@ -1,36 +1,36 @@
-import Nutan from "./usecontext/Nutan";
+// import Nutan from "./usecontext/Nutan";
 
-function App() {
-  return <Nutan />;
-}
+// function App() {
+//   return <Nutan />;
+// }
 
-export default App;
-
-
-
-
-
-
-
-
-// import { useState } from "react";
-// import { UserContext } from "./usecontext/UserContext";
-// import Navbar from "./usecontext/Navbar";
-// import Profile from "./usecontext/Profile";
-
-// const App = () => {
-//   const [name, setName] = useState("Nutan");
-
-//   return (
-//     <UserContext.Provider value={{ name, setName }}>
-//       <Navbar />
-//       <Profile />
-
-//     </UserContext.Provider>
-
-//   );
-// };
 // export default App;
+
+
+
+
+
+
+
+
+import { useState } from "react";
+import { UserContext } from "./usecontext/UserContext";
+import Navbar from "./usecontext/Navbar";
+import Profile from "./usecontext/Profile";
+
+const App = () => {
+  const [name, setName] = useState("Nutan");
+
+  return (
+    <UserContext.Provider value={{ name, setName }}>
+      <Navbar />
+      <Profile />
+
+    </UserContext.Provider>
+
+  );
+};
+export default App;
 
 
 

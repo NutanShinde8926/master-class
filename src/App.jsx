@@ -4,6 +4,7 @@ import Car from './useState/Car'
 import Counter2 from './useState/Counter2'
 import UseState2 from './useState/UseState2'
 import SignupForm from './useState/SignupForm'
+import Toggle from './useState/Toggle'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Counter2 />
       <UseState2 /> */}
       <SignupForm />
+      <Toggle />
     </div>
   )
 }

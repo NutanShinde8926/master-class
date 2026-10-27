@@ -50,6 +50,7 @@ import Toggle from './useState/Toggle'
 import Practice from './usecontext/Practice'
 import UseEffect  from './usecontext/UseEffect'
 import CounterReduce from './usecontext/CounterReduce'
+import SmallEffect from './usecontext/SmallEffect'
 
  const App = () => {
    return (
@@ -63,6 +64,8 @@ import CounterReduce from './usecontext/CounterReduce'
       <Practice />
       <UseEffect />
       <CounterReduce />
+      <SmallEffect />
+
 
     </div>
   )

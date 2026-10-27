@@ -48,6 +48,7 @@ import UseState2 from './useState/UseState2'
 import SignupForm from './useState/SignupForm'
 import Toggle from './useState/Toggle'
 import Practice from './usecontext/Practice'
+import UseEffect  from './usecontext/UseEffect'
 
  const App = () => {
    return (
@@ -59,6 +60,7 @@ import Practice from './usecontext/Practice'
        <SignupForm />
       <Toggle /> */}
       <Practice />
+      <UseEffect />
     </div>
   )
 }

@@ -49,6 +49,7 @@ import SignupForm from './useState/SignupForm'
 import Toggle from './useState/Toggle'
 import Practice from './usecontext/Practice'
 import UseEffect  from './usecontext/UseEffect'
+import CounterReduce from './usecontext/CounterReduce'
 
  const App = () => {
    return (
@@ -61,6 +62,8 @@ import UseEffect  from './usecontext/UseEffect'
       <Toggle /> */}
       <Practice />
       <UseEffect />
+      <CounterReduce />
+
     </div>
   )
 }
